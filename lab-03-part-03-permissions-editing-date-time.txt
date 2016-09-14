@@ -104,8 +104,10 @@ Write out the code in your file below...
 #!/bin/bash
 
 mkdir -p backup
-cp *.txt
-print im done backing up
+cp *.txt backup
+print "I'm done backing up"
+
+
 
 
 ==========
@@ -116,7 +118,8 @@ print im done backing up
 
 What commands did you use to do this?
 ----------
-
+touch 1.txt
+touch 2.txt
 
 
 ==========
@@ -124,7 +127,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+ent-v314-011:~ student$ mv copy_to_backup.sh test
 
 
 ==========
@@ -132,7 +135,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+ent-v314-011:test student$ ./copy_to_backup.sh
 
 
 ==========
@@ -140,3 +143,4 @@ What commands did you use to do this?
 
 What commands did you use to do this?  Show the output.
 ----------
+ent-v314-011:backup student$ ./copy_to_backup.sh
