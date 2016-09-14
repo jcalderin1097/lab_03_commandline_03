@@ -186,9 +186,10 @@ A situtation would be when you want find out what the file is about who is the a
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
+ent-v314-011:other student$ wc pg1232.txt
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+wc -l
