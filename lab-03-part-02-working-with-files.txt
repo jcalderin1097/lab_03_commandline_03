@@ -132,7 +132,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+got whole article
 
 
 ==========
@@ -144,7 +144,8 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+ent-v314-011:other student$ head pg1232.txt
+Title: The Prince
 
 
 ==========
@@ -156,7 +157,8 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+ent-v314-011:other student$ tail pg1232.txt
+subscribe to our email newsletter to hear about new eBooks.
 
 
 ==========
@@ -168,7 +170,9 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
-
+ent-v314-011:other student$ less pg1232.txt
+the spacebar move around the txt file 
+q quits the txt file
 
 
 ==========
@@ -176,7 +180,7 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
-
+A situtation would be when you want find out what the file is about who is the author etc.
 
 
 ==========
