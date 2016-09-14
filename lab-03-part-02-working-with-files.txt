@@ -36,7 +36,7 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
-
+foo.txt
 
 
 ==========
@@ -52,7 +52,8 @@ $ touch bar.txt
 
 Copy and paste the output below.
 ----------
-
+-rw-r--r--  1 student  staff  0 Sep 14 11:17 bar.txt
+-rw-r--r--  1 student  staff  0 Sep 14 11:16 foo.txt
 
 
 ==========
@@ -61,7 +62,9 @@ Copy and paste the output below.
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
-
+ ent-v314-011:my_files student$ cp bar.txt baz.txt
+ent-v314-011:my_files student$ ls
+bar.txt	baz.txt	foo.txt
 
 
 ==========
@@ -69,13 +72,18 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+ent-v314-011:my_files student$ rm bar.txt
+ent-v314-011:my_files student$ ls
+baz.txt	foo.txt
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
-
+ent-v314-011:my_files student$ mv foo.txt qux.txt
+ent-v314-011:my_files student$ ls
+baz.txt	qux.txt
 
 
 ==========
@@ -90,7 +98,8 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
-
+ent-v314-011:mtec1002-lab-03 student$ rmdir my_files
+rmdir: my_files: Directory not empty
 
 
 ==========
@@ -98,7 +107,8 @@ Write out the command that you used and what happened.
 
 Write out the command that you used and what happened.
 ----------
-
+ent-v314-011:mtec1002-lab-03 student$ rm my_files
+rm: my_files: is a directory
 
 
 ==========
@@ -108,7 +118,9 @@ Force the removal of the directory and files using the -rf flag
 
 $ rm -rf my_files
 ----------
-
+ent-v314-011:mtec1002-lab-03 student$ rm -rf my_files
+ent-v314-011:mtec1002-lab-03 student$ ls
+books	logs	web
 
 
 ==========
